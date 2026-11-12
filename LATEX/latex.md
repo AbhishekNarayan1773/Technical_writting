@@ -2,131 +2,87 @@ LaTeX Documentation
 
 1. Introduction
 
-LaTeX is a high-quality typesetting system widely used for creating scientific, technical, and academic documents. It is especially useful for documents containing mathematical equations, formulas, tables, references, and complex formatting.
+LaTeX is a powerful document preparation and typesetting system used for creating professional academic, scientific, and technical documents. It is widely used by students, researchers, engineers, and professionals.
 
-Unlike traditional word processors, LaTeX uses markup commands to define the structure and formatting of a document.
+LaTeX provides precise control over document formatting, mathematical equations, tables, figures, references, and overall document structure.
 
 2. Features of LaTeX
 
 * Professional document formatting.
-* Supports complex mathematical equations.
-* Automatic numbering of sections, figures, and tables.
+* Excellent mathematical equation support.
+* Automatic numbering of sections, tables, and figures.
 * Bibliography and citation management.
 * Cross-referencing.
-* Supports multiple document types.
-* Easy management of large documents.
+* Support for different document classes.
+* Consistent formatting throughout documents.
 
-3. Basic Structure of a LaTeX Document
+3. Topics Covered
 
-Every LaTeX document generally contains two main parts:
+01. Basics and Document Structure
 
-1. Preamble
-2. Document body
+* Introduction to LaTeX.
+* Basic document structure.
+* Document classes.
+* Preamble and packages.
+* Text formatting.
+* Sections and subsections.
 
-Example:
+02. Mathematical Typesetting
 
-\documentclass{article}
-\usepackage{amsmath}
-\usepackage{graphicx}
-\title{Introduction to LaTeX}
-\author{Abhishek Narayan Hathwala}
-\date{\today}
-\begin{document}
-\maketitle
-\section{Introduction}
-This is my first LaTeX document.
-\section{Conclusion}
-LaTeX is useful for technical documentation.
-\end{document}
+* Inline and display equations.
+* Fractions and square roots.
+* Mathematical symbols.
+* Greek letters.
+* Matrices and determinants.
+* Summations and integrations.
 
-4. Text Formatting
+03. Tables, Graphics and Colors
 
-Common formatting commands:
+* Creating tables.
+* Adding rows and columns.
+* Inserting images.
+* Figure captions.
+* Text colours.
+* Customizing tables and graphics.
 
-Command	Purpose
-\textbf{Text}	Bold text
-\textit{Text}	Italic text
-\underline{Text}	Underlined text
-\emph{Text}	Emphasized text
-\texttt{Text}	Typewriter font
+04. Advanced Layouts
 
-5. Mathematical Equations
+* Page formatting.
+* Headers and footers.
+* Page numbering.
+* Multiple columns.
+* Spacing and margins.
+* Advanced document layouts.
 
-LaTeX is particularly useful for writing mathematical expressions.
+4. Common LaTeX Commands
 
-Inline equation:
+Command	Description
+\documentclass{article}	Defines document type
+\begin{document}	Starts document
+\end{document}	Ends document
+\section{}	Creates a section
+\subsection{}	Creates a subsection
+\textbf{}	Makes text bold
+\textit{}	Makes text italic
+\includegraphics{}	Inserts an image
+\begin{equation}	Creates an equation
 
-The equation is $a^2+b^2=c^2$.
+5. Applications of LaTeX
 
-Displayed equation:
+* Academic assignments.
+* Research papers.
+* Technical reports.
+* Scientific publications.
+* Books and presentations.
+* Mathematical documentation.
 
-\[
-E = mc^2
-\]
+6. Tools Used
 
-Fraction:
+* LaTeX
+* Overleaf
+* TeX Live
+* PDFLaTeX
 
-\[
-\frac{a+b}{c}
-\]
+7. Conclusion
 
-Summation:
-
-\[
-\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
-\]
-
-6. Lists in LaTeX
-
-Unordered List
-
-\begin{itemize}
-    \item LaTeX
-    \item Beamer
-    \item Doxygen
-\end{itemize}
-
-Ordered List
-
-\begin{enumerate}
-    \item Introduction
-    \item Implementation
-    \item Conclusion
-\end{enumerate}
-
-7. Tables
-
-Example:
-
-\begin{tabular}{|c|c|}
-\hline
-Subject & Marks \\
-\hline
-Mathematics & 90 \\
-Computer Science & 95 \\
-\hline
-\end{tabular}
-
-8. Images in LaTeX
-
-The graphicx package is used to insert images.
-
-\usepackage{graphicx}
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.5\textwidth]{image.png}
-    \caption{Sample Image}
-\end{figure}
-
-9. Applications of LaTeX
-
-* Research papers
-* Academic assignments
-* Technical reports
-* Books and journals
-* Mathematical documentation
-* Scientific publications
-
-10. Conclusion
-
-LaTeX is a powerful tool for preparing professional documents. Its structured approach, mathematical capabilities, and automatic formatting features make it an important tool for technical writing.
+LaTeX is an essential tool for technical and academic writing. It provides a structured approach to document preparation and helps create professional-quality documents with accurate formatting and mathematical expressions.
