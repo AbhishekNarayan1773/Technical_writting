@@ -1,0 +1,96 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage[margin=1in]{geometry}
+
+\title{Creating Tables in LaTeX}
+\author{Abhishek Narayan Hathwala \\ MNIT Jaipur \\ Student ID: 2025UCP1029}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+LaTeX provides the tabular environment to create
+structured tables in documents.
+
+\section{Basic Table}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Name & Roll Number & Branch \\
+\hline
+Abhishek & 2025UCP1029 & CSE \\
+Rahul & 2025UCP1030 & CSE \\
+Aman & 2025UCP1031 & ECE \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Table with Different Alignments}
+
+The following table demonstrates left, center,
+and right alignment.
+
+\begin{center}
+\begin{tabular}{|l|c|r|}
+\hline
+Subject & Marks & Grade \\
+\hline
+Mathematics & 90 & A \\
+Physics & 85 & A \\
+Computer Science & 95 & A+ \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Table with Caption and Label}
+
+\begin{table}[h]
+\centering
+\caption{Student Information}
+\label{tab:student}
+
+\begin{tabular}{|c|c|c|}
+\hline
+Name & Department & Year \\
+\hline
+Abhishek & CSE & 2025 \\
+Rahul & ECE & 2025 \\
+Aman & ME & 2025 \\
+\hline
+\end{tabular}
+
+\end{table}
+
+Table \ref{tab:student} shows sample student information.
+
+\section{Professional Table Using Booktabs}
+
+\begin{table}[h]
+\centering
+\caption{Academic Performance}
+
+\begin{tabular}{lcc}
+\toprule
+Subject & Marks & Grade \\
+\midrule
+Mathematics & 90 & A \\
+Physics & 85 & A \\
+Computer Science & 95 & A+ \\
+\bottomrule
+\end{tabular}
+
+\end{table}
+
+\section{Conclusion}
+
+This practical demonstrates how to create tables
+using LaTeX, apply different alignments, add captions,
+and create professional tables using the booktabs package
+
+\end{document}
