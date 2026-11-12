@@ -81,7 +81,7 @@ Command	Description
 * LaTeX
 * Overleaf
 * TeX Live
-* PDFLaTeX
+* PDFLaTe
 
 7. Conclusion
 
